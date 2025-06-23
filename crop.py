@@ -3,7 +3,7 @@ import joblib
 
 # Load model and label encoder
 model = joblib.load('cropmodel.pkl')
-le = joblib.load('crop_label_encoder.pkl')
+le3 = joblib.load('crop_label_encoder.pkl')
 
 st.set_page_config(page_title="Smart Crop Predictor", layout="centered")
 st.title("🌾 Smart Crop Recommendation System")

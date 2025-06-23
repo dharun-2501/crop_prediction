@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model and label encoder
-model = joblib.load('cropmodel.pkl')
-le3 = joblib.load('crop_label_encoder.pkl')
+model = joblib.load('crop_model.pkl')
+le = joblib.load('crop_label_encoder.pkl')
 
 st.set_page_config(page_title="Smart Crop Predictor", layout="centered")
 st.title("🌾 Smart Crop Recommendation System")

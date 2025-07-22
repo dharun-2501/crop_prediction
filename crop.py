@@ -10,7 +10,7 @@ le = joblib.load('crop_label_encoder.pkl')
 st.set_page_config(page_title="🌾 Smart Crop Predictor", layout="centered", page_icon="🌿")
 st.title("🌾 Smart Crop Recommendation System")
 st.markdown("""
-Welcome to the **AI-powered Crop Recommender**!  
+Welcome to the ** best crop predictor **!  
 Fill in the details below to get the most suitable crop for your region and season 🌱  
 """)
 
